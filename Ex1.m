@@ -49,6 +49,11 @@ F=A.*B;
 
 %% 1.6
 x=[1,2,3,67,4,5];
-[a,b]=func2(x);
+funcao2(x)
+
+function [soma,produto] = funcao2(x)
+soma=sum(x)
+produto=prod(x)
+end
 
 %% 1.7
